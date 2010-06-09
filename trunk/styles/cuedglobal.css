@@ -1,0 +1,48 @@
+/*@import "camstyle.css";*/
+
+body {background-color:#ffffff; color:#000000; font-family: Arial, Helvetica, sans-serif;}
+
+h4 {font-weight: bold; font-size: 100%; color: #333333; font-family: Arial, Helvetica, sans-serif; margin-bottom:0em; margin-top:0em;}
+
+th {text-align:left; font-weight: normal;}
+tr, td {font-family: arial, helvetica, sans-serif;} /*for NN4.75+)*/
+td.heading {background: #0099cc; color:#cccccc; font-size: 100%; font-weight:bold; padding-left:0.1em;}
+td.subheading {background: #cccccc; color:#0099cc; font-size: 100%; font-weight:bold;padding-left:0.1em;}
+.deptitle {font-size: 140%; color: #000000; font-weight: bold;} /* repeated for NN4.75+)*/
+.newsbox {border: solid 1px #cccccc; background:#e6e6e6; text-align:left;}
+
+.blue {color:#153e7e; font-family:arial, helvetica, sans-serif;}
+.red {color:#980000; font-family:arial, helvetica, sans-serif;}
+.gray {color:#606060; font-family:arial, helvetica, sans-serif;}
+
+ul {list-style-type: square;}
+ol {list-style-type: decimal;}
+li.heading {list-style:none; font-weight:bold; font-size:14px;}
+li.none {list-style:none;}
+.nomargin {margin-top:0px;}
+.nobmargin {margin-bottom:0px;}
+.zeromargin {margin-top:0px; margin-bottom:0px;}
+ul.none {list-style-type: none; margin-left:0.5em;}
+ol.none {list-style-type: none; margin-left:0.5em;}
+ol.roman {list-style-type: upper-roman;}
+ol.lroman {list-style-type:lower-roman;}
+ol.alpha {list-style-type: upper-alpha;}
+ol.lalpha {list-style-type:lower-alpha;}
+
+ul.newslist {list-style:none; margin:0; padding:0px; font-size:80%;}
+.menulist ul li {list-style:none; margin:0; line-height:0.5em;}
+.menulist2 ul li ul li {list-style:none; margin:0; padding:0px;}
+
+.footercued {font-size:80%; text-align:left; float:left; margin-top:0em;}
+.footerlinks {font-size:80%; text-align:center; margin-top:0em;}
+.webadmin {font-size: 70%; margin-top:0em;}
+
+form {border:0em; margin:0.1em 0em 0em 0em;}
+.formlinks {font-size:70%;}
+.newshead {font-family:arial, helvetica, sans-serif; font-size:110%; font-weight:bold; color:#153e7e;}
+.date {font-family:arial, helvetica, sans-serif; font-style:italic; font-size:80%; margin-left:1em;}
+.cap {font-size:80%; color:#808080; margin-top:0.1em; font-family:arial, helvetica, sans-serif; text-align:center;}
+
+code {background-color:#ffffcc;}
+
+blockquote, span, div {font-family: Arial, Helvetica, sans-serif;}
