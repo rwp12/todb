@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+ <TITLE>Test wizard page 5 - Javascript</TITLE>
+</HEAD>
+<BODY>
+
+<H1>Testing JavaScript</H1>
+<P>If your JavaScript works, the value of pi and today's date will be displayed.</P>
+<p><B>Note:</b> This is a browser setting and is not related to the config of the TODB.  If JavaScript works you will
+be able to assess whether or not the TODB server config is correct, and vice versa.
+
+
+<script type="text/javascript" language="JavaScript">
+
+var now = new Date();
+var monthnumber = now.getMonth();
+var monthday    = now.getDate();
+var year        = now.getFullYear();
+
+    document.write("<P>PI is " + Math.PI + " and today's date is " + monthday + '-' + monthnumber + '-' + year + "</p>");
+</script>
+
+
+<P><A href='test_html.html'>Home</A></P>
+
+</BODY>
+</HTML>

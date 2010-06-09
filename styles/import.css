@@ -1,0 +1,40 @@
+.hplist ul {margin: 0; padding: 0; list-style: none;}
+.hplist ul li {padding-top: 0em;}
+.hplist ul li ul li {padding-left: 1em; list-style: none; font-size:90%; }
+.hplist ul li ul li ul li {padding-left: 1em; list-style: none; font-size:85%; }
+
+.nstlist ul {margin: 0; padding: 0; list-style: none;}
+.nstlist ul li {padding-top: 6px;}
+.nstlist ul li ul li {padding-left: 1em; list-style: none; font-size:90%; }
+.nstlist ul li ul li ul li {padding-left: 1em; list-style: none; font-size:85%; }
+
+.hplist p {margin: 0; padding: 0;}
+
+.forlist ul {margin: 0; padding: 5px; list-style: none; text-align: right;}
+.forlist ul li {padding-top: 0em;}
+
+.navlist ul {margin: 0; padding: 0; list-style: none;}
+.navlist ul li {padding-bottom: 4px; line-height: 90%;}
+.navlist ul li ul li {padding-left: 1em; padding-top: 2px; line-height: 90%; list-style: none;}
+
+.list ul {margin: 0; padding: 20px; list-style: none; text-align: right; font-size:90%;}
+.list ul li {padding-top: 0em;}
+
+.llist ul {margin: 0; padding: 0; list-style: none; font-size: 95%;}
+.llist ul li {padding-top: 4px;}
+.llist ul li ul li {padding-left: 1em; padding-top: 2px; font-size: 85%; list-style: none;}
+
+.foot {float: left; }
+.rfoot {float: right; }
+ 
+table.index {border:0; margin-top: 24px;}
+table.index td {font-size: 90%; background: #ffffff; padding:2px; text-align: center;border-top: solid
+#cccccc
+2px; border-left: solid #cccccc 1px; border-right: solid #cccccc 1px; border-bottom: 0px;}
+table.index td.active {font-size: 90%; background: #0099cc; color: #ffffff;  padding:2px;border-top: solid black
+2px; border-left: solid black 1px; border-right: solid black 1px; border-bottom: 0px;}
+table.index td.blank {font-size: 90%; background: #ffffff; padding:2px; text-align: center;border: 0px;}
+table.index td.blue {font-size: 90%; background: #0099cc; padding:0; border: 0px;}
+table.index td.grey {font-size: 90%; background: #cccccc; padding:0; border: 0px;}
+h1.indexns {display: none;}
+p.indexns {display:none;}
