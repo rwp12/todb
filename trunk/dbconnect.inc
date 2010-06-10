@@ -18,7 +18,7 @@ function open_db_read() {
    mysql_select_db('information_schema', $db_metadata);
 
    // connect to DB via read user
-   $dbread = mysql_connect('localhost', $readuser_name, $readuser_pass, true)
+   $dbread = mysql_connect($database_host, $readuser_name, $readuser_pass, true)
       or die('Could not connect: ' . mysql_error());
    mysql_select_db($database_name, $dbread);
 }
